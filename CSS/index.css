@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Work Sans', sans-serif; */
+body {
+    font-family:'Work Sans', sans-serif;
+}
+.jumbotron {
+    background-color: #E0D1FF;
+    max-width: 100vw;
+}
+h1, .link {
+    color:#6732FE;
+}
+p {
+    font-size: 1rem !important;
+}
+a {
+    text-decoration: none;
+  color: black!important;
+  cursor: pointer;
+
+
+}
+a:hover {
+    text-decoration: underline;
+    color: #0097A7;
+    text-underline-position: under;
+}
+a.current{
+    font-weight: bolder !important;
+    color:black !important;
+    
+}
+ul {
+    width: 100vw;
+}
+nav{
+    background-color: #D4FBFF;
+}
+.topnav {
+    background-color:#E0D1FF;
+    max-width: 100vw;
+}
+.topnavUl{
+    max-width: 50vw;
+    text-align: right !important;
+  
+}
+.topnavUl li {
+    margin: 0 2vw;
+   
+}
+.topnav img {
+    margin-left: 3vw;
+    width: 75px;
+    height: auto;
+}
+.head {
+    background-image: url(/Images/needles.png);
+    padding: 8vh 0;
+    background-size: cover;
+    text-align: left;
+}
+h2 {
+    font-family:'Work Sans', sans-serif;
+    padding: 2vw;
+    color: #6732FE;
+
+}
+.fixed-bottom{
+    background-color:#E0D1FF;;
+}
+    
+    
